@@ -479,13 +479,13 @@
     grid-row: 2/3;
     top: 34%;
     right: 47%;
-    transform: translate(-50%, -50%);
+    transform: translate(-155%, -50%);
     z-index: -1;
     /* opacity: 90%; */
   }
 
   .logo-easy {
-    font-size: 3.2rem;
+    font-size: 3.22rem;
     color: #c3dfdf;
     letter-spacing: 0.2rem;
   }
@@ -498,7 +498,7 @@
     /* top: -3.8%; */
     top: 18%;
     right: 27%;
-    transform: translate(-50%, -50%);
+    transform: translate(77%, -46%);
     z-index: -999;
     /* opacity: 15%; */
   }
@@ -508,7 +508,7 @@
     }
    */
   .logos img {
-    height: 1.2rem;
+    height: 1rem;
   }
 
   .shop-buy {
@@ -538,8 +538,8 @@
   .testimonial-icon {
     color: #297474;
     align-self: center;
-    height: 2rem;
-    width: 2rem;
+    height: 4rem;
+    width: 6rem;
   }
 
   .testimonials {
@@ -550,7 +550,7 @@
 
   .testimonial-heading {
     grid-column: 1/-1;
-    font-size: 1.9rem;
+    font-size: 3.9rem;
   }
 
   .testimonial-text {
@@ -563,7 +563,8 @@
 
   .gallery {
     align-items: center;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-row: 3/4;
     grid-column: 2/3;
     gap: 1.2rem;
@@ -592,6 +593,44 @@
   .cta-img-box {
     height: 32rem;
     grid-row: 1;
+  }
+  .footer-heading {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 4rem;
+  }
+
+  .logo-easy-two {
+    font-size: 5rem;
+    color: #c3dfdf;
+    letter-spacing: 0.2rem;
+  }
+
+  .logo-feet {
+    font-family: sans-serif;
+    color: #fff;
+    letter-spacing: 0.4rem;
+    font-size: 1.2rem;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  user agent stylesheet strong {
+    font-weight: bold;
+  }
+  .logo-footer:link,
+  .logo-footer:visited {
+    text-decoration: none;
+    background-color: black;
+    padding: 0;
+    font-size: 2.2rem;
+    border-end-start-radius: 2rem;
+    border-top-right-radius: 2.4rem;
+    border-bottom: 2px solid #fff;
+    box-shadow: 0 1.2rem 2.4rem rgb(0 0 0 / 2%);
   }
 }
 
@@ -628,14 +667,14 @@
 
   .testimonial-heading {
     grid-column: 1/-1;
-    font-size: 2.8rem;
+    font-size: 3.8rem;
   }
 
   .testimonial-icon {
     color: #297474;
     align-self: center;
-    height: 2.8rem;
-    width: 2.8rem;
+    height: 10.8rem;
+    width: 3.8rem;
   }
 
   .testimonial-heading {
@@ -673,13 +712,13 @@
   .gallery {
     grid-column: 1/-1;
     grid-row: 4/5;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
   }
 
   .btn--form {
     color: #f1f1f1;
     background-color: #32c5c5;
-    padding: 1.5rem 12.4rem;
+    padding: 1.5rem 10.4rem;
   }
 
   .btn--form:hover {
@@ -697,7 +736,7 @@
   .footer-link:link,
   .footer-link:visited {
     text-decoration: none;
-    font-size: 3.2rem;
+    font-size: 2.5rem;
     color: #f1f1f1;
     transition: all 0.3s;
   }
@@ -711,7 +750,63 @@
 @media (max-width: 25em) {
   html {
     /*  9px / 16px */
-    font-size: 38%;
+    font-size: 56%;
+  }
+
+  .shop-buy {
+    font-size: 3.2rem;
+  }
+
+  .testimonials {
+    align-items: center;
+    margin-bottom: 18rem;
+  }
+
+  .footer-link:link,
+  .footer-link:visited {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #f1f1f1;
+    transition: all 0.3s;
+  }
+
+  .footer-heading {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 4rem;
+  }
+
+  .logo-easy-two {
+    font-size: 4rem;
+    color: #c3dfdf;
+    letter-spacing: 0.2rem;
+  }
+
+  .social-icon {
+    height: 3.2rem;
+    width: 2.4rem;
+    /* color: red; */
+  }
+
+  .copyright {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #fff;
+    margin-top: auto;
+  }
+}
+
+@media (max-width: 23em) {
+  html {
+    font-size: 48%;
+  }
+}
+
+@media (max-width: 18em) {
+  html {
+    font-size: 33%;
+    /* font-size: 35%; */
   }
 }
 
